@@ -1,0 +1,805 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		730578DD7FA4A7D36FFE5887 /* Pods_DynamicHeightViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7052D87185BCD3219917048 /* Pods_DynamicHeightViewTests.framework */; };
+		C4292613195AF2088974AD7F /* Pods_DynamicHeightView_DynamicHeightViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B97618AD491BE514E89565D /* Pods_DynamicHeightView_DynamicHeightViewUITests.framework */; };
+		C494B6F72A2F195700B04A31 /* AZPagingMainTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C494B6F32A2F195700B04A31 /* AZPagingMainTableView.swift */; };
+		C494B6F82A2F195700B04A31 /* AZPagingListContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C494B6F42A2F195700B04A31 /* AZPagingListContainerView.swift */; };
+		C494B6F92A2F195700B04A31 /* AZPagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C494B6F52A2F195700B04A31 /* AZPagingView.swift */; };
+		C494B6FA2A2F195700B04A31 /* AZPagingListContainerScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C494B6F62A2F195700B04A31 /* AZPagingListContainerScrollView.swift */; };
+		C494B6FC2A2F19D700B04A31 /* SegmentBaseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C494B6FB2A2F19D700B04A31 /* SegmentBaseListView.swift */; };
+		C494B6FE2A2F1A6400B04A31 /* WaterfallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C494B6FD2A2F1A6400B04A31 /* WaterfallLayout.swift */; };
+		C494B7002A2F1A8900B04A31 /* CollectionItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C494B6FF2A2F1A8900B04A31 /* CollectionItemCell.swift */; };
+		C494B7022A2F1F4E00B04A31 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C494B7012A2F1F4E00B04A31 /* UIColor+Extensions.swift */; };
+		C494B7042A2F218000B04A31 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C494B7032A2F218000B04A31 /* HeaderView.swift */; };
+		C49CEF2329ED131F00436F78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49CEF2229ED131F00436F78 /* AppDelegate.swift */; };
+		C49CEF2529ED131F00436F78 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49CEF2429ED131F00436F78 /* SceneDelegate.swift */; };
+		C49CEF2729ED131F00436F78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49CEF2629ED131F00436F78 /* ViewController.swift */; };
+		C49CEF2A29ED131F00436F78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49CEF2829ED131F00436F78 /* Main.storyboard */; };
+		C49CEF2C29ED132200436F78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C49CEF2B29ED132200436F78 /* Assets.xcassets */; };
+		C49CEF2F29ED132200436F78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49CEF2D29ED132200436F78 /* LaunchScreen.storyboard */; };
+		C49CEF3A29ED132200436F78 /* DynamicHeightViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49CEF3929ED132200436F78 /* DynamicHeightViewTests.swift */; };
+		C49CEF4429ED132200436F78 /* DynamicHeightViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49CEF4329ED132200436F78 /* DynamicHeightViewUITests.swift */; };
+		C49CEF4629ED132200436F78 /* DynamicHeightViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49CEF4529ED132200436F78 /* DynamicHeightViewUITestsLaunchTests.swift */; };
+		EB4C1A5591498EA46B2779C3 /* Pods_DynamicHeightView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE3D02A066C3416789EEAC9 /* Pods_DynamicHeightView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C49CEF3629ED132200436F78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C49CEF1729ED131F00436F78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C49CEF1E29ED131F00436F78;
+			remoteInfo = DynamicHeightView;
+		};
+		C49CEF4029ED132200436F78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C49CEF1729ED131F00436F78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C49CEF1E29ED131F00436F78;
+			remoteInfo = DynamicHeightView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B97618AD491BE514E89565D /* Pods_DynamicHeightView_DynamicHeightViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DynamicHeightView_DynamicHeightViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		671A25229DEDC16CB471B3CB /* Pods-DynamicHeightViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicHeightViewTests.debug.xcconfig"; path = "Target Support Files/Pods-DynamicHeightViewTests/Pods-DynamicHeightViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		683E92D8AB20C3E1C8A8330F /* Pods-DynamicHeightView-DynamicHeightViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicHeightView-DynamicHeightViewUITests.debug.xcconfig"; path = "Target Support Files/Pods-DynamicHeightView-DynamicHeightViewUITests/Pods-DynamicHeightView-DynamicHeightViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		95F378E4DB01E44CB54A1608 /* Pods-DynamicHeightView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicHeightView.release.xcconfig"; path = "Target Support Files/Pods-DynamicHeightView/Pods-DynamicHeightView.release.xcconfig"; sourceTree = "<group>"; };
+		A52C0684C8EEA836EC3ADE15 /* Pods-DynamicHeightView-DynamicHeightViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicHeightView-DynamicHeightViewUITests.release.xcconfig"; path = "Target Support Files/Pods-DynamicHeightView-DynamicHeightViewUITests/Pods-DynamicHeightView-DynamicHeightViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C494B6F32A2F195700B04A31 /* AZPagingMainTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZPagingMainTableView.swift; sourceTree = "<group>"; };
+		C494B6F42A2F195700B04A31 /* AZPagingListContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZPagingListContainerView.swift; sourceTree = "<group>"; };
+		C494B6F52A2F195700B04A31 /* AZPagingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZPagingView.swift; sourceTree = "<group>"; };
+		C494B6F62A2F195700B04A31 /* AZPagingListContainerScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZPagingListContainerScrollView.swift; sourceTree = "<group>"; };
+		C494B6FB2A2F19D700B04A31 /* SegmentBaseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentBaseListView.swift; sourceTree = "<group>"; };
+		C494B6FD2A2F1A6400B04A31 /* WaterfallLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterfallLayout.swift; sourceTree = "<group>"; };
+		C494B6FF2A2F1A8900B04A31 /* CollectionItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionItemCell.swift; sourceTree = "<group>"; };
+		C494B7012A2F1F4E00B04A31 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		C494B7032A2F218000B04A31 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		C49CEF1F29ED131F00436F78 /* DynamicHeightView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicHeightView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C49CEF2229ED131F00436F78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C49CEF2429ED131F00436F78 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C49CEF2629ED131F00436F78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C49CEF2929ED131F00436F78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C49CEF2B29ED132200436F78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C49CEF2E29ED132200436F78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C49CEF3029ED132200436F78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C49CEF3529ED132200436F78 /* DynamicHeightViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicHeightViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C49CEF3929ED132200436F78 /* DynamicHeightViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicHeightViewTests.swift; sourceTree = "<group>"; };
+		C49CEF3F29ED132200436F78 /* DynamicHeightViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicHeightViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C49CEF4329ED132200436F78 /* DynamicHeightViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicHeightViewUITests.swift; sourceTree = "<group>"; };
+		C49CEF4529ED132200436F78 /* DynamicHeightViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicHeightViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CF472286B57F56B83F7A3067 /* Pods-DynamicHeightView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicHeightView.debug.xcconfig"; path = "Target Support Files/Pods-DynamicHeightView/Pods-DynamicHeightView.debug.xcconfig"; sourceTree = "<group>"; };
+		D7052D87185BCD3219917048 /* Pods_DynamicHeightViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DynamicHeightViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE3D02A066C3416789EEAC9 /* Pods_DynamicHeightView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DynamicHeightView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F07D6B51D718C42460724B60 /* Pods-DynamicHeightViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicHeightViewTests.release.xcconfig"; path = "Target Support Files/Pods-DynamicHeightViewTests/Pods-DynamicHeightViewTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C49CEF1C29ED131F00436F78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4C1A5591498EA46B2779C3 /* Pods_DynamicHeightView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49CEF3229ED132200436F78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730578DD7FA4A7D36FFE5887 /* Pods_DynamicHeightViewTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49CEF3C29ED132200436F78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4292613195AF2088974AD7F /* Pods_DynamicHeightView_DynamicHeightViewUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C494B6F22A2F195700B04A31 /* PagingView */ = {
+			isa = PBXGroup;
+			children = (
+				C494B6F32A2F195700B04A31 /* AZPagingMainTableView.swift */,
+				C494B6F42A2F195700B04A31 /* AZPagingListContainerView.swift */,
+				C494B6F52A2F195700B04A31 /* AZPagingView.swift */,
+				C494B6F62A2F195700B04A31 /* AZPagingListContainerScrollView.swift */,
+			);
+			path = PagingView;
+			sourceTree = "<group>";
+		};
+		C49CEF1629ED131F00436F78 = {
+			isa = PBXGroup;
+			children = (
+				C49CEF2129ED131F00436F78 /* DynamicHeightView */,
+				C49CEF3829ED132200436F78 /* DynamicHeightViewTests */,
+				C49CEF4229ED132200436F78 /* DynamicHeightViewUITests */,
+				C49CEF2029ED131F00436F78 /* Products */,
+				DDD99D0F451774952252592B /* Pods */,
+				CE88EDED0DD30CDADDD0D98D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C49CEF2029ED131F00436F78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C49CEF1F29ED131F00436F78 /* DynamicHeightView.app */,
+				C49CEF3529ED132200436F78 /* DynamicHeightViewTests.xctest */,
+				C49CEF3F29ED132200436F78 /* DynamicHeightViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C49CEF2129ED131F00436F78 /* DynamicHeightView */ = {
+			isa = PBXGroup;
+			children = (
+				C49CEF2229ED131F00436F78 /* AppDelegate.swift */,
+				C49CEF2429ED131F00436F78 /* SceneDelegate.swift */,
+				C494B7032A2F218000B04A31 /* HeaderView.swift */,
+				C49CEF2629ED131F00436F78 /* ViewController.swift */,
+				C494B6FB2A2F19D700B04A31 /* SegmentBaseListView.swift */,
+				C494B6FF2A2F1A8900B04A31 /* CollectionItemCell.swift */,
+				C494B6FD2A2F1A6400B04A31 /* WaterfallLayout.swift */,
+				C494B7012A2F1F4E00B04A31 /* UIColor+Extensions.swift */,
+				C494B6F22A2F195700B04A31 /* PagingView */,
+				C49CEF2829ED131F00436F78 /* Main.storyboard */,
+				C49CEF2B29ED132200436F78 /* Assets.xcassets */,
+				C49CEF2D29ED132200436F78 /* LaunchScreen.storyboard */,
+				C49CEF3029ED132200436F78 /* Info.plist */,
+			);
+			path = DynamicHeightView;
+			sourceTree = "<group>";
+		};
+		C49CEF3829ED132200436F78 /* DynamicHeightViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				C49CEF3929ED132200436F78 /* DynamicHeightViewTests.swift */,
+			);
+			path = DynamicHeightViewTests;
+			sourceTree = "<group>";
+		};
+		C49CEF4229ED132200436F78 /* DynamicHeightViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C49CEF4329ED132200436F78 /* DynamicHeightViewUITests.swift */,
+				C49CEF4529ED132200436F78 /* DynamicHeightViewUITestsLaunchTests.swift */,
+			);
+			path = DynamicHeightViewUITests;
+			sourceTree = "<group>";
+		};
+		CE88EDED0DD30CDADDD0D98D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFE3D02A066C3416789EEAC9 /* Pods_DynamicHeightView.framework */,
+				1B97618AD491BE514E89565D /* Pods_DynamicHeightView_DynamicHeightViewUITests.framework */,
+				D7052D87185BCD3219917048 /* Pods_DynamicHeightViewTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDD99D0F451774952252592B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF472286B57F56B83F7A3067 /* Pods-DynamicHeightView.debug.xcconfig */,
+				95F378E4DB01E44CB54A1608 /* Pods-DynamicHeightView.release.xcconfig */,
+				683E92D8AB20C3E1C8A8330F /* Pods-DynamicHeightView-DynamicHeightViewUITests.debug.xcconfig */,
+				A52C0684C8EEA836EC3ADE15 /* Pods-DynamicHeightView-DynamicHeightViewUITests.release.xcconfig */,
+				671A25229DEDC16CB471B3CB /* Pods-DynamicHeightViewTests.debug.xcconfig */,
+				F07D6B51D718C42460724B60 /* Pods-DynamicHeightViewTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C49CEF1E29ED131F00436F78 /* DynamicHeightView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C49CEF4929ED132200436F78 /* Build configuration list for PBXNativeTarget "DynamicHeightView" */;
+			buildPhases = (
+				90CD5D5AE17BF7934308372B /* [CP] Check Pods Manifest.lock */,
+				C49CEF1B29ED131F00436F78 /* Sources */,
+				C49CEF1C29ED131F00436F78 /* Frameworks */,
+				C49CEF1D29ED131F00436F78 /* Resources */,
+				4CD5313E6155D958D5DA0596 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynamicHeightView;
+			productName = DynamicHeightView;
+			productReference = C49CEF1F29ED131F00436F78 /* DynamicHeightView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C49CEF3429ED132200436F78 /* DynamicHeightViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C49CEF4C29ED132200436F78 /* Build configuration list for PBXNativeTarget "DynamicHeightViewTests" */;
+			buildPhases = (
+				B660F313C3A5943B7CA7C186 /* [CP] Check Pods Manifest.lock */,
+				C49CEF3129ED132200436F78 /* Sources */,
+				C49CEF3229ED132200436F78 /* Frameworks */,
+				C49CEF3329ED132200436F78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C49CEF3729ED132200436F78 /* PBXTargetDependency */,
+			);
+			name = DynamicHeightViewTests;
+			productName = DynamicHeightViewTests;
+			productReference = C49CEF3529ED132200436F78 /* DynamicHeightViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C49CEF3E29ED132200436F78 /* DynamicHeightViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C49CEF4F29ED132200436F78 /* Build configuration list for PBXNativeTarget "DynamicHeightViewUITests" */;
+			buildPhases = (
+				08CF0A617B4DEFB96EE45A88 /* [CP] Check Pods Manifest.lock */,
+				C49CEF3B29ED132200436F78 /* Sources */,
+				C49CEF3C29ED132200436F78 /* Frameworks */,
+				C49CEF3D29ED132200436F78 /* Resources */,
+				E3A1D7F7FEA0815D493B7E9A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C49CEF4129ED132200436F78 /* PBXTargetDependency */,
+			);
+			name = DynamicHeightViewUITests;
+			productName = DynamicHeightViewUITests;
+			productReference = C49CEF3F29ED132200436F78 /* DynamicHeightViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C49CEF1729ED131F00436F78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C49CEF1E29ED131F00436F78 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					C49CEF3429ED132200436F78 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C49CEF1E29ED131F00436F78;
+					};
+					C49CEF3E29ED132200436F78 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C49CEF1E29ED131F00436F78;
+					};
+				};
+			};
+			buildConfigurationList = C49CEF1A29ED131F00436F78 /* Build configuration list for PBXProject "DynamicHeightView" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C49CEF1629ED131F00436F78;
+			productRefGroup = C49CEF2029ED131F00436F78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C49CEF1E29ED131F00436F78 /* DynamicHeightView */,
+				C49CEF3429ED132200436F78 /* DynamicHeightViewTests */,
+				C49CEF3E29ED132200436F78 /* DynamicHeightViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C49CEF1D29ED131F00436F78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49CEF2F29ED132200436F78 /* LaunchScreen.storyboard in Resources */,
+				C49CEF2C29ED132200436F78 /* Assets.xcassets in Resources */,
+				C49CEF2A29ED131F00436F78 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49CEF3329ED132200436F78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49CEF3D29ED132200436F78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08CF0A617B4DEFB96EE45A88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DynamicHeightView-DynamicHeightViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CD5313E6155D958D5DA0596 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DynamicHeightView/Pods-DynamicHeightView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DynamicHeightView/Pods-DynamicHeightView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DynamicHeightView/Pods-DynamicHeightView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90CD5D5AE17BF7934308372B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DynamicHeightView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B660F313C3A5943B7CA7C186 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DynamicHeightViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3A1D7F7FEA0815D493B7E9A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DynamicHeightView-DynamicHeightViewUITests/Pods-DynamicHeightView-DynamicHeightViewUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DynamicHeightView-DynamicHeightViewUITests/Pods-DynamicHeightView-DynamicHeightViewUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DynamicHeightView-DynamicHeightViewUITests/Pods-DynamicHeightView-DynamicHeightViewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C49CEF1B29ED131F00436F78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49CEF2729ED131F00436F78 /* ViewController.swift in Sources */,
+				C494B6FC2A2F19D700B04A31 /* SegmentBaseListView.swift in Sources */,
+				C494B7002A2F1A8900B04A31 /* CollectionItemCell.swift in Sources */,
+				C49CEF2329ED131F00436F78 /* AppDelegate.swift in Sources */,
+				C49CEF2529ED131F00436F78 /* SceneDelegate.swift in Sources */,
+				C494B6FA2A2F195700B04A31 /* AZPagingListContainerScrollView.swift in Sources */,
+				C494B6F92A2F195700B04A31 /* AZPagingView.swift in Sources */,
+				C494B7042A2F218000B04A31 /* HeaderView.swift in Sources */,
+				C494B6F72A2F195700B04A31 /* AZPagingMainTableView.swift in Sources */,
+				C494B7022A2F1F4E00B04A31 /* UIColor+Extensions.swift in Sources */,
+				C494B6FE2A2F1A6400B04A31 /* WaterfallLayout.swift in Sources */,
+				C494B6F82A2F195700B04A31 /* AZPagingListContainerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49CEF3129ED132200436F78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49CEF3A29ED132200436F78 /* DynamicHeightViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49CEF3B29ED132200436F78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49CEF4629ED132200436F78 /* DynamicHeightViewUITestsLaunchTests.swift in Sources */,
+				C49CEF4429ED132200436F78 /* DynamicHeightViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C49CEF3729ED132200436F78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C49CEF1E29ED131F00436F78 /* DynamicHeightView */;
+			targetProxy = C49CEF3629ED132200436F78 /* PBXContainerItemProxy */;
+		};
+		C49CEF4129ED132200436F78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C49CEF1E29ED131F00436F78 /* DynamicHeightView */;
+			targetProxy = C49CEF4029ED132200436F78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C49CEF2829ED131F00436F78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C49CEF2929ED131F00436F78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C49CEF2D29ED132200436F78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C49CEF2E29ED132200436F78 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C49CEF4729ED132200436F78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C49CEF4829ED132200436F78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C49CEF4A29ED132200436F78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF472286B57F56B83F7A3067 /* Pods-DynamicHeightView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UKXWZ3FS84;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DynamicHeightView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tango.DynamicHeightView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C49CEF4B29ED132200436F78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95F378E4DB01E44CB54A1608 /* Pods-DynamicHeightView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UKXWZ3FS84;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DynamicHeightView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tango.DynamicHeightView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C49CEF4D29ED132200436F78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 671A25229DEDC16CB471B3CB /* Pods-DynamicHeightViewTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UKXWZ3FS84;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tango.DynamicHeightViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DynamicHeightView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DynamicHeightView";
+			};
+			name = Debug;
+		};
+		C49CEF4E29ED132200436F78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F07D6B51D718C42460724B60 /* Pods-DynamicHeightViewTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UKXWZ3FS84;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tango.DynamicHeightViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DynamicHeightView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DynamicHeightView";
+			};
+			name = Release;
+		};
+		C49CEF5029ED132200436F78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 683E92D8AB20C3E1C8A8330F /* Pods-DynamicHeightView-DynamicHeightViewUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UKXWZ3FS84;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tango.DynamicHeightViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DynamicHeightView;
+			};
+			name = Debug;
+		};
+		C49CEF5129ED132200436F78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A52C0684C8EEA836EC3ADE15 /* Pods-DynamicHeightView-DynamicHeightViewUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UKXWZ3FS84;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tango.DynamicHeightViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DynamicHeightView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C49CEF1A29ED131F00436F78 /* Build configuration list for PBXProject "DynamicHeightView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C49CEF4729ED132200436F78 /* Debug */,
+				C49CEF4829ED132200436F78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C49CEF4929ED132200436F78 /* Build configuration list for PBXNativeTarget "DynamicHeightView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C49CEF4A29ED132200436F78 /* Debug */,
+				C49CEF4B29ED132200436F78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C49CEF4C29ED132200436F78 /* Build configuration list for PBXNativeTarget "DynamicHeightViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C49CEF4D29ED132200436F78 /* Debug */,
+				C49CEF4E29ED132200436F78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C49CEF4F29ED132200436F78 /* Build configuration list for PBXNativeTarget "DynamicHeightViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C49CEF5029ED132200436F78 /* Debug */,
+				C49CEF5129ED132200436F78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C49CEF1729ED131F00436F78 /* Project object */;
+}
